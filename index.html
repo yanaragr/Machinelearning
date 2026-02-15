@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprende Machine Learning</title>
+    <meta
+      name="description"
+      content="Una guía clara de machine learning para personas que comienzan y equipos que construyen proyectos."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero fondo-geometrico">
+      <nav class="container nav">
+        <div class="nav-links">
+          <a href="#aprendizaje" class="link-nav">Qué es ML</a>
+          <a href="#proceso" class="link-nav">Cómo funciona</a>
+          <a href="#proyectos" class="link-nav">Casos de uso</a>
+          <a href="#teoria-ia" class="link-nav">Teoría de IA</a>
+          <a href="#aprender-ia" class="link-nav">Aprender IA</a>
+        </div>
+      </nav>
+        <div class="container hero-contenido reveal">
+          <div>
+            <h1>Machine Learning explicado de forma simple y útil</h1>
+            <p>
+              Desde conceptos básicos hasta aplicaciones reales de IA. Una ruta
+              clara para principiantes y profesionales.
+            </p>
+          </div>
+
+          <div>
+            <img src="media/fotodeordenador.png" alt="ordenador" />
+          </div>
+        </div>
+
+    </header>
+
+    <main>
+      <section id="aprendizaje" class="seccion container reveal">
+        <h2>¿Qué es Machine Learning?</h2>
+        <p class="intro">
+          Es una rama de la inteligencia artificial donde los sistemas aprenden
+          patrones a partir de datos para predecir, clasificar o decidir sin
+          reglas fijas escritas paso a paso.
+        </p>
+        <div class="grid tarjetas-3">
+          <article class="tarjeta">
+            <div class="icono" aria-hidden="true">📘</div>
+            <h3>Supervisado</h3>
+            <p>Aprende con datos etiquetados para predecir resultados futuros.</p>
+          </article>
+          <article class="tarjeta">
+            <div class="icono" aria-hidden="true">🧭</div>
+            <h3>No supervisado</h3>
+            <p>Encuentra grupos y patrones ocultos sin etiquetas previas.</p>
+          </article>
+          <article class="tarjeta">
+            <div class="icono" aria-hidden="true">🎯</div>
+            <h3>Por refuerzo</h3>
+            <p>Aprende por prueba y error maximizando recompensas.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="proceso" class="seccion seccion-contraste reveal">
+        <div class="container">
+          <h2>Cómo funciona</h2>
+          <ol class="timeline">
+            <li>
+              <span class="paso">1</span>
+              <div>
+                <h3>Datos</h3>
+                <p>Recolectar, limpiar y estructurar información fiable.</p>
+              </div>
+            </li>
+            <li>
+              <span class="paso">2</span>
+              <div>
+                <h3>Entrenamiento</h3>
+                <p>El modelo detecta relaciones y ajusta sus parámetros.</p>
+              </div>
+            </li>
+            <li>
+              <span class="paso">3</span>
+              <div>
+                <h3>Evaluación</h3>
+                <p>Se mide el desempeño con métricas como F1 y precisión.</p>
+              </div>
+            </li>
+            <li>
+              <span class="paso">4</span>
+              <div>
+                <h3>Despliegue</h3>
+                <p>El modelo se publica y se monitorea en producción.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="proyectos" class="seccion container reveal">
+        <h2>Casos de uso reales</h2>
+        <div class="grid casos-grid">
+          <article class="tarjeta-mini"><h3>Salud</h3><p>Apoyo al diagnóstico clínico.</p></article>
+          <article class="tarjeta-mini"><h3>Finanzas</h3><p>Detección de fraude en tiempo real.</p></article>
+          <article class="tarjeta-mini"><h3>Retail</h3><p>Recomendaciones personalizadas de compra.</p></article>
+          <article class="tarjeta-mini"><h3>Transporte</h3><p>Optimización de rutas y demanda.</p></article>
+          <article class="tarjeta-mini"><h3>Clima</h3><p>Predicción de eventos extremos.</p></article>
+        </div>
+      </section>
+
+      <section id="teoria-ia" class="seccion seccion-contraste reveal">
+        <div class="container">
+          <h2>Teoría de IA en pocas palabras</h2>
+          <p class="intro">
+            La inteligencia artificial (IA) es el campo general que busca
+            construir sistemas capaces de realizar tareas que normalmente
+            requieren inteligencia humana. El machine learning es una técnica
+            dentro de la IA. Y el deep learning es una parte del machine
+            learning basada en redes neuronales profundas.
+          </p>
+          <div class="grid tarjetas-3">
+            <article class="tarjeta">
+              <div class="icono" aria-hidden="true">🤖</div>
+              <h3>IA débil (actual)</h3>
+              <p>
+                Resuelve tareas específicas: traducir, recomendar, detectar
+                objetos o responder preguntas.
+              </p>
+            </article>
+            <article class="tarjeta">
+              <div class="icono" aria-hidden="true">🧠</div>
+              <h3>Modelos generativos</h3>
+              <p>
+                Crean texto, imágenes o código a partir de patrones aprendidos
+                en grandes colecciones de datos.
+              </p>
+            </article>
+            <article class="tarjeta">
+              <div class="icono" aria-hidden="true">🛡️</div>
+              <h3>IA responsable</h3>
+              <p>
+                Un buen sistema de IA debe vigilar privacidad,
+                explicabilidad y seguridad antes de usarse.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="aprender-ia" class="seccion container reveal">
+        <div class="tarjeta">
+          <h2>Cómo aprender IA con buen criterio</h2>
+          <p>
+            Empieza por estadística básica, práctica con pequeños datasets y
+            mide resultados en cada experimento. Después, estudia modelos más
+            complejos y aprende a comparar rendimiento, coste y riesgo.
+          </p>
+          <p>
+            En proyectos reales, lo más importante no es solo tener un modelo
+            preciso: también debe ser útil, entendible y mantenible para las
+            personas que lo van a usar.
+          </p>
+        </div>
+      </section>
+        <section id="contacto" class="seccion seccion-contraste">
+          <div class="container">
+            <h2>Contacto</h2>
+            <p class="intro">
+              ¿Tienes dudas sobre Machine Learning o quieres proponer un proyecto?
+              Escríbeme y te respondo pronto.
+            </p>
+
+            <div class="tarjeta" style="margin-top: var(--espacio-3);">
+              <form class="form-contacto">
+                <div class="campo">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                </div>
+
+                <div class="campo">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+                </div>
+
+                <div class="campo">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame en qué te puedo ayudar..." required></textarea>
+                </div>
+
+                <button type="submit" class="boton-principal">Enviar mensaje</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
